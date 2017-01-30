@@ -1,0 +1,47 @@
+.tiles {
+
+    min-width: 1200px;
+  
+}
+
+.tile-1 {
+  background: $tile1-color;
+}
+.tile-2{
+  background: $tile2-color;
+}
+.tile-3{
+  background: $tile3-color;
+}
+.tile-4{
+  background: $tile4-color;
+}
+.tile-5{
+  background: $tile5-color;
+}
+
+.tile {
+  position: relative;
+    height:  279px;
+    cursor: pointer;
+
+    & .bs-grid {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+}
+.tile-wrapper{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  white-space: nowrap;
+  font-size: 24px;
+  font-family: "Quark";
+  color: $color;
+  & {
+
+  }
+}

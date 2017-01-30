@@ -1,0 +1,24 @@
+.cloud-storage{
+  height:500px;
+  padding-left: 0;
+
+  & .wrapper{
+background-color: $color;
+    height: 100%;
+    width: auto;
+    & .name{
+      padding-left: 15px;
+      height: 70px;
+      line-height: 70px;
+      width: 100%;
+      background-color: $title-bg-color;
+      font-size: 18px;
+      font-family: "Quark";
+      color: $st-color;
+      font-weight: bold;
+}
+& .guts{
+
+  height: auto;
+}
+    }}

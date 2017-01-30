@@ -1,0 +1,51 @@
+/// Mixin to prefix a property
+@mixin prefix($property, $value, $prefixes: ()) {
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+
+  // Output standard non-prefixed declaration
+  #{$property}: $value;
+}
+//mixin to make line for navicon
+@mixin line {
+  display: inline-block;
+  width: $button-size;
+  height: $nav-line-height;
+  background:$color;
+  border-radius: $button-size/14;
+  transition: $transition;
+
+}
+@mixin statistics-cloud {
+  height: 500px;
+  padding-left: 0;
+
+  // & .wrapper {
+  //     position: relative;
+  //     background-color: $color;
+  //     height: 100%;
+  //     width: auto;
+  //     font-family: "Quark";
+  //     & .name {
+  //         padding-left: 15px;
+  //         height: 70px;
+  //         line-height: 70px;
+  //         width: 100%;
+  //         background-color: $title-bg-color;
+  //         font-size: 18px;
+  //
+  //         color: $st-color;
+  //         font-weight: bold;
+  //     }
+  //
+  //     & .guts {
+  //       font-size: 30px;
+  //         position: absolute;
+  //         top: 50%;
+  //         left: 50%;
+  //         transform: translate(-50%, -50%);
+  //         height: auto;
+  //     }
+  // }
+}
