@@ -1,0 +1,14 @@
+
+.todo-forecast-quotes{
+& .to-do-list{
+	@include todo-forecast-quotes;
+}
+& .forecast {
+	@include todo-forecast-quotes;
+ 
+} 
+& .quotes{
+	@include todo-forecast-quotes;  
+}
+margin-bottom: 100px;
+}

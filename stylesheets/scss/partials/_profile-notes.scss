@@ -1,0 +1,9 @@
+.profile-notes{
+	& .notes{
+		@include profile-notes ;
+	}
+	& .profile{
+		@include profile-notes;
+	}
+	
+}

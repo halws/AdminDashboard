@@ -18,7 +18,73 @@
 
 }
 @mixin statistics-cloud {
-  height: 500px;
+  height: 200px;
+  padding-left: 0;
+
+  & .wrapper {
+      position: relative;
+      background-color: $color;
+      height: 100%;
+      width: auto;
+      font-family: "Quark";
+      & .name {
+          padding-left: 15px;
+          height: 70px;
+          line-height: 70px;
+          width: 100%;
+          background-color: $title-bg-color;
+          font-size: 18px;
+
+          color: $st-color;
+          font-weight: bold;
+      }
+
+      & .guts {
+        font-size: 30px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          white-space: nowrap;
+          height: auto;
+      }
+  }
+}
+@mixin todo-forecast-quotes{
+  height: 400px;
+  padding-left: 0;
+
+  & .wrapper {
+      position: relative;
+      background-color: $color;
+      height: 100%;
+      width: auto;
+      font-family: "Quark";
+      & .name {
+          padding-left: 15px;
+          height: 70px;
+          line-height: 70px;
+          width: 100%;
+          background-color: $title-bg-color;
+          font-size: 18px;
+
+          color: $st-color;
+          font-weight: bold;
+      }
+
+      & .guts {
+        font-size: 30px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          white-space: nowrap;
+          height: auto;
+      }
+  }
+}
+@mixin profile-notes{
+  height: 600px;
   padding-left: 0;
 
   & .wrapper {
