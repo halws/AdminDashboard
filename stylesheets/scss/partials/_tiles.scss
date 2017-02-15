@@ -8,6 +8,9 @@
 
 .tile-1 {
   background: $tile1-color;
+  &:hover{
+    background: darken($tile1-color,10%);
+  }
 }
 .tile-2{
   background: $tile2-color;

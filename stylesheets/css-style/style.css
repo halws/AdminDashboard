@@ -199,6 +199,8 @@ body {
 
 .tile-1 {
   background: #5fafe4; }
+  .tile-1:hover {
+    background: #3399dd; }
 
 .tile-2 {
   background: #6eb4e5; }
