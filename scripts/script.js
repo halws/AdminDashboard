@@ -3,6 +3,8 @@ $(function() {
         toogleNav();
         toggleIcon();
     });
+    $containerWidth;
+
 });
 
 function toggleIcon() {
@@ -20,3 +22,4 @@ function toogleNav() {
         $('#site-wrapper').addClass('show-nav')
     }
 };
+var $containerWidth = $('div[class="container"]').css("min-width","1200px");
