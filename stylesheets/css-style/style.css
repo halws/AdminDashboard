@@ -204,15 +204,23 @@ body {
 
 .tile-2 {
   background: #6eb4e5; }
+  .tile-2:hover {
+    background: #439edd; }
 
 .tile-3 {
   background: #7dbde9; }
+  .tile-3:hover {
+    background: #51a7e2; }
 
 .tile-4 {
   background: #8cc3ea; }
+  .tile-4:hover {
+    background: #61ace2; }
 
 .tile-5 {
   background: #99cbee; }
+  .tile-5:hover {
+    background: #6db5e7; }
 
 .tile {
   position: relative;

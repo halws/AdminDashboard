@@ -14,15 +14,27 @@
 }
 .tile-2{
   background: $tile2-color;
+  &:hover{
+    background: darken($tile2-color,10%);
+  }
 }
 .tile-3{
   background: $tile3-color;
+  &:hover{
+    background: darken($tile3-color,10%);
+  }
 }
 .tile-4{
   background: $tile4-color;
+  &:hover{
+    background: darken($tile4-color,10%);
+  }
 }
 .tile-5{
   background: $tile5-color;
+  &:hover{
+    background: darken($tile5-color,10%);
+  }
 }
 
 .tile {
